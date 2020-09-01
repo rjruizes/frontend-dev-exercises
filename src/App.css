@@ -1,0 +1,52 @@
+body {
+  background-color: #f7f7f7;
+}
+.wrapper {
+  margin: 0 auto;
+  max-width: 800px;
+}
+h3 {
+  font-weight: bold;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  text-align: center;
+}
+.chart-container {
+  min-height: 400px;
+}
+.collapsible-content {
+  margin-top: 12px;
+  margin-bottom: 5px;
+  padding: 0 18px;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+  background-color: #f1f1f1;
+  box-shadow: rgba(204, 204, 204, 0.5) 0px 0px 5px inset;
+}
+.filterbox {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  padding: 5px;
+}
+.filterbox-item {
+  padding: 5px;
+}
+.filterbox-item b {
+  color: #666;
+}
+@media only screen and (max-width: 600px) {
+  .filterbox {
+    justify-content: flex-start;
+  }
+}
+
+.full-width {
+  width: 100vw;
+  position: relative;
+  left: 50%;
+  right: 50%;
+  margin-left: -50vw;
+  margin-right: -50vw;
+}
