@@ -12,7 +12,7 @@ To install dependencies:
 npm i
 ```
 
-To run the development server:
+To run the development server (viewable at [http://localhost:3000](http://localhost:3000)):
 
 ```
 npm start
@@ -23,8 +23,6 @@ To build static output:
 ```
 npm run build
 ```
-
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
 ### Libraries used
 
