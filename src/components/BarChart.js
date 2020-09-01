@@ -4,7 +4,7 @@ import Chart from 'chart.js'
 // Change long strings into arrays which will insert line breaks
 function cleanDisplayKeys(keys, filterKey) {
   if(filterKey === 'education_level') {
-    keys[keys.indexOf('Professional School')] = ['Professional', 'School']
+    keys[keys.indexOf('Professional school')] = ['Professional', 'School']
     keys[keys.indexOf('Did not complete high school')] = ['Did not', 'complete', 'high school']
   } else {
     keys[keys.indexOf('Asian-Pac-Islander')] = ['Asian,', 'Pac. Islander']

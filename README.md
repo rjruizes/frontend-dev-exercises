@@ -2,6 +2,8 @@
 
 See prompt at https://github.com/rtidatascience/frontend-dev-exercises
 
+**Live Demo:** https://rjruizes.github.io/frontend-dev-exercises/
+
 ![alt text](https://github.com/rjruizes/frontend-dev-exercises/blob/master/screenshot.png?raw=true)
 
 To install dependencies:
